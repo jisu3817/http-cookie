@@ -1,0 +1,27 @@
+{
+  "name": "cookie",
+  "version": "1.0.0",
+  "description": "HTTP 쿠키(웹 쿠키, 브라우저 쿠키)는 **서버**가 사용자의 **웹 브라우저**에 전송하는 작은 **데이터 조각**이다. 브라우저는 그 데이터 조각들을 저장해 놓았다가, **동일한 서버에 재 요청 시 저장된 데이터를 함께 전송**한다. 쿠키는 두 요청이 동일한 브라우저에서 들어왔는지 아닌지를 판단할 때 주로 사용한다. 상태가 없는([stateless](https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview#HTTP_is_stateless_but_not_sessionless)) HTTP 프로토콜에서 상태 정보를 기억시켜준다.",
+  "main": "app.js",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "nodemon ./bin/www.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jisu3817/http-cookie.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jisu3817/http-cookie/issues"
+  },
+  "homepage": "https://github.com/jisu3817/http-cookie#readme"
+}
