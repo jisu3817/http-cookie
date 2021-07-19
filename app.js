@@ -14,5 +14,5 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 app.use('/', home);
-
+app.use('/welcome', home);
 module.exports = app;
