@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="/js/home/login.js" defer></script>
+    <link rel="stylesheet" href="/css/login.css">
     <title>login</title>
 </head>
 <body>
-    아이디:<input type="text" placeholder="아이디" id="id" value=<%= userId %>><br>
-	비밀번호:<input type="text" placeholder="비밀번호" id="psword"><br>
-    ID 저장<input type="checkbox" value="checked" id="rememberId"><br>
-    <button>로그인</button>
+    <div>
+        <span id="loginId">
+            아이디:<input type="text" placeholder="아이디" id="id" value=<%= userId %>>
+        </span>
+        <span id="loginPsword">
+            비밀번호:<input type="text" placeholder="비밀번호" id="psword">
+        </span>
+        <span id="loginRemember">
+            ID 저장<input type="checkbox" value="checked" id="rememberId"><br>
+        </span>
+        <button>로그인</button>
+    </div>
 </body>
 </html>

@@ -1,0 +1,44 @@
+div {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    width: 20%;
+    padding: 15px;
+    border: 3px solid #66b2ff;   
+    border-radius: 4px;
+}
+
+#loginId {
+    margin-left:40px;
+    margin-bottom: 5px;
+}
+
+#id {
+    margin-left:10px;
+}
+
+#loginPsword {
+    margin:  5px 25px;
+
+}
+
+#psword {
+    margin-left:10px;
+}
+
+#loginRemember {
+    margin-left:25px;
+    font-size: small;
+}
+button {
+    margin: auto;
+    margin-top: 10px;
+    width: 80%;
+    height: 30px;
+    font-size: large;
+    background-color: #99ccff;
+    border-radius:4px;
+    border: none;
+}
